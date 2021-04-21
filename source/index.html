@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEDONA</title>
+</head>
+
+<body class="page__body">
+    <header class="page-header">
+        <a class="page-header__logo">
+            <img src="" alt="page-header__logo-image">
+        </a>
+        <nav class="main-nav">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a href="info.html">Информация</a>
+              <a href="photo.html">Фото и видео</a>
+              <a href="map.html">Карта штата</a>
+              <a href="hotels.html">Гостиницы</a>
+            </li>
+          </ul>
+        </nav>
+    </header>
+
+    <main class="page-main">
+      <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
+      <section class="reasons">
+        <h2 class="visually-hidden">Причины приехать в наш город</h2>
+        <p class="reasons__intro">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+        <ul class="reasons__list">
+          <li class="reasons__item reasons__item--big reasons__item--image-after">
+            <div class="reasons__description">
+              <h3 class="reasons__title">Настоящий городок</h3>
+              <p class="reasons__number">— №1 —</p>
+              <p class="reasons__text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            </div>
+            <div class="reasons__recomendation recomendation">
+              <ul class="recomendation__list">
+                <li class="recomendation__item recomendation__item--home">
+                  <h4 class="recomendation__title">Жильё</h4>
+                  <p class="recomendation__text">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                </li>
+                <li class="recomendation__item recomendation__item--food">
+                  <h4 class="recomendation__title">Еда</h4>
+                  <p class="recomendation__text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                </li>
+                <li class="recomendation__item recomendation__item--souvenir">
+                  <h4 class="recomendation__title">Сувениры</h4>
+                  <p class="recomendation__text">Не только китайского, но и местного производства!</p>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="reasons__item reasons__item--big reasons__item--image-before">
+            <div class="reasons__description">
+              <h3 class="reasons__title">Там есть мост дьявола</h3>
+              <p class="reasons__number">— №2 —</p>
+              <p class="reasons__text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+            </div>
+          </li>
+          <li class="reasons__item reasons__item--small">
+            <div class="reasons__description">
+              <h3 class="reasons__title">Небольшая площадь</h3>
+              <p class="reasons__number">— №3 —</p>
+              <p class="reasons__text">Все достопримечательности находятся очень близко</p>
+            </div>
+          </li>
+          <li class="reasons__item reasons__item--small">
+            <div class="reasons__description">
+              <h3 class="reasons__title">Красивая дорога</h3>
+              <p class="reasons__number">— №4 —</p>
+              <p class="reasons__text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+            </div>
+          </li>
+          <li class="reasons__item reasons__item--small">
+            <div class="reasons__description">
+              <h3 class="reasons__title">Мало туристов</h3>
+              <p class="reasons__number">— №5 —</p>
+              <p class="reasons__text">Большинство едет в гранд каньон и толпится там</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="booking">
+        <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
+        <p class="booking__title">Заинтересовались?</p>
+        <p class="booking__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <a class="booking__toggle button">Поиск гостинницы в Седоне</a>
+        <form class="booking__form form" action="https://echo.htmlacademy.ru" method="post">
+          <p class="form__arrive">
+            <label for="">Дата заезда:</label>
+            <input class="form__input form__input--arrive" id="arrive" type="date" name="arrive" placeholder="24 апреля 2020">
+          </p>
+          <p class="form__depart">
+            <label for="">Дата выезда:</label>
+            <input class="form__input form__input--depart" id="depart" type="date" name="depart" placeholder="4 июля 2020">
+          </p>
+          <p class="form__adult">
+            <label for="">Взрослые:</label>
+            <button class="form__plus" type="button">+</button>
+            <input class="form__input form__input--adult" id="adult" type="number" name="adult" placeholder="2">
+            <button class="form__minus" type="button">-</button>
+          </p>
+          <p class="form__child">
+            <label for="">Дети:</label>
+            <button class="form__plus" type="button">+</button>
+            <input class="form__input form__input--child" id="child" type="number" name="child" placeholder="0">
+            <button class="form__minus" type="button">-</button>
+          </p>
+          <button class="booking__search button" type="submit">Найти</button>
+        </form>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="page-footer__contacts contacts">
+        <b class="contacts__title">#VISITSEDONA</b>
+        <p class="contacts__phone-mobile">ТЕЛ: +7(495) 666-01-66</p>
+      </div>
+      <div class="page-footer__social social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--vkontakte" href="https://vk.com/Bylinskiy">Мы в
+              Вконтакте</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--facebook" href="https://www.facebook.com/Bylinskiy">Мы в
+              Фейсбуке</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--instagram" href="https://www.instagram.com/Bylinskiy">Мы
+              в Инстаграме</a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__copyright copyright">
+        <a class="button copyright__link" href="#">Bylinskiy</a>
+      </div>
+    </footer>
+</body>
+</html>
