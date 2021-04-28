@@ -1,0 +1,25 @@
+.site-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-list__item {
+  width: 240px;
+  text-align: center;
+
+}
+
+.site-list__item a {
+  display: block;
+  padding: 15px 0;
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+
+}

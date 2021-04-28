@@ -1,0 +1,97 @@
+.reasons__intro {
+  margin-top: 36px;
+  margin-bottom: 50px;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+}
+
+.reasons__list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.reasons__item {
+  display: flex;
+  flex-direction: column;
+    &--big {
+      background-color: #81B3D2;
+      color: white;
+    }
+
+    &--wrapper {
+      display: flex;
+      flex-direction: row;
+    }
+}
+
+.reasons__description {
+  position: relative;
+  width: 400px;
+  min-height: 256px;
+
+  text-align: center;
+
+  &--image-after::after {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    right: -800px;
+
+    width: 800px;
+    height: 256px;
+
+    background-image: url("/img/reason-town.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+
+  &--image-before {
+    padding-left: 800px;
+  }
+
+  &--image-before::before {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 800px;
+    height: 256px;
+
+    background-image: url("/img/reason-bridge.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+}
+
+.reasons__title {
+  padding-top: 40px;
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.reasons__number {
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 40px;
+}
+
+.reasons__text {
+  width: 310px;
+  margin: 0 auto;
+
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 25px;
+}

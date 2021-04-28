@@ -1,0 +1,28 @@
+.page {
+  height: 100%;
+  font-size: 14px;
+  font-family: "PT Sans", sans-serif;
+  line-height: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.page__body {
+  min-height: 100%;
+  min-width: 1200px;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+
+  background-color: #000000, #000000, #ffffff;
+  background-image:
+    url(/img/welcome.png),
+    url(/img/polygon.png),
+    url(/img/Object.jpg);
+  background-position:
+    center 150px,
+    center 550px,
+    center 0;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: auto, auto, auto;
+}
