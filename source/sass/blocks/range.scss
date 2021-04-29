@@ -1,0 +1,135 @@
+
+  .range {
+    width: 330px;
+    margin-top: 25px;
+    margin-left: 250px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  .range__title {
+    margin-bottom: 9px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .range__controls-input {
+    position: relative;
+
+    height: 36px;
+    margin-bottom: 20px;
+
+    font-size: 0;
+
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+  }
+
+  .range__controls-input::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 2px;
+    height: 22px;
+
+    background: #ffffff;
+    transform: translate(-50%, -50%);
+  }
+
+  .range__controls-input label {
+    display: inline-block;
+
+    font-size: 14px;
+    line-height: 38px;
+    vertical-align: top;
+
+    cursor: pointer;
+  }
+
+  .range__min-price,
+  .range__max-price {
+    width: 90px;
+    padding-left: 65px;
+  }
+
+  .range__controls-input input {
+    width: 50px;
+    margin: 0;
+
+    color: inherit;
+    font: inherit;
+
+    background: none;
+    border: none;
+  }
+
+  .range__controls-toggle {
+    position: relative;
+
+    margin-bottom: 32px;
+  }
+
+  .range__scale {
+    height: 2px;
+
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  .range__bar {
+    width: 80%;
+    height: 2px;
+
+    background: #ffffff;
+  }
+
+  .range__toggle {
+    position: absolute;
+    top: -9px;
+
+    width: 4px;
+    height: 4px;
+
+    background: #ababab;
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+    cursor: pointer;
+  }
+
+  .range__toggle:hover {
+    background: #1c4f80;
+  }
+
+  .range__toggle--min {
+    left: 0;
+  }
+
+  .range__toggle--max {
+    left: 80%;
+  }
+
+  .range__button {
+    display: block;
+    margin: 0 auto;
+    padding: 6px 35px;
+
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  .range__button:hover {
+    color: #000000;
+
+    background: #ffffff;
+  }

@@ -1,0 +1,94 @@
+.filter {
+  display: flex;
+}
+
+.filter fieldset {
+  padding: 0;
+  margin: 0;
+  margin-top: 25px;
+
+  border: none;
+
+  &:first-child {
+    padding-left: 75px;
+  }
+}
+
+.filter legend {
+  margin-bottom: 25px;
+
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.filter__list {
+  width: 240px;
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+.filter__option {
+  margin-bottom: 19px;
+  padding-left: 45px;
+}
+
+.filter__option label {
+  position: relative;
+
+  display: block;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.filter__input--checkbox + label::before {
+  content: "";
+  position: absolute;
+  left: -42px;
+  top: 0;
+
+  width: 23px;
+  height: 23px;
+
+  background-image: url(/img/icon-check-off.png)
+}
+
+
+.filter__input--checkbox:checked + label::before {
+  content: "";
+  position: absolute;
+  left: -42px;
+  top: 0;
+
+  width: 23px;
+  height: 23px;
+
+  background-image: url(/img/icon-check-on.png)
+}
+
+.filter__input--checkbox:checked:disabled + label::before {
+  content: "";
+  position: absolute;
+  left: -42px;
+  top: 0;
+
+  width: 23px;
+  height: 23px;
+
+  background-image: url(/img/icon-check-on_disabled.png)
+}
+
+.filter__input--checkbox:disabled + label::before {
+  content: "";
+  position: absolute;
+  left: -42px;
+  top: 0;
+
+  width: 23px;
+  height: 23px;
+
+  background-image: url(/img/icon-check-off_disabled.png)
+}
