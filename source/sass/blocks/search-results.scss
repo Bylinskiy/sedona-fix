@@ -1,0 +1,86 @@
+.search-results__list {
+margin: 0;
+padding: 0;
+
+list-style: none;
+border-top: 1px solid rgba(#000000, 0.1);
+}
+
+.search-results__item {
+  padding: 30px 0;
+
+  display: flex;
+  border-bottom: 1px solid rgba(#000000, 0.1);
+}
+
+.search-results__image {
+  align-self: center;
+  width: 135px;
+  height: 90px;
+
+  margin-right: 30px;
+}
+
+.search-results__name {
+  margin-bottom: 10px;
+
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+
+  color: #000000;
+  text-decoration: none;
+}
+
+.search-results__wrapper {
+  display: flex;
+}
+
+.search-results__container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 6px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.search-results__livin-type {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.search-results__price {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.search-results__more-info {
+@include button;
+}
+
+.search-results__reservation {
+  @include button;
+  background-color: #766357;
+}
+
+.search-results__other-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: auto;
+}
+
+.search-results__stars {
+margin: 0;
+text-align: end
+}
+
+.search-results__rating {
+  @include button;
+  margin: 0;
+  font-weight: 400;
+  background-color: #F2F2F2;
+  color: #666666;
+}

@@ -2,6 +2,7 @@
 @import "global/variables.scss";
 @import "global/fonts.scss";
 @import "global/global.scss";
+@import "global/mixins.scss";
 //Blocks
 @import "blocks/page.scss";
 @import "blocks/page-header.scss";
@@ -20,8 +21,8 @@
 @import "blocks/filters.scss";
 @import "blocks/filter.scss";
 @import "blocks/range.scss";
-@import "blocks/results-block";
-@import "blocks/sorting-panel";
-@import "blocks/type-list";
-@import "blocks/at-firts-list";
-@import "blocks/search-results";
+@import "blocks/results-block.scss";
+@import "blocks/sorting-panel.scss";
+@import "blocks/type-list.scss";
+@import "blocks/at-firts-list.scss";
+@import "blocks/search-results.scss";
