@@ -1,0 +1,36 @@
+.at-firts-list {
+  display: flex;
+  list-style: none;
+}
+
+.at-firts-list__item {
+  margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.at-firts-list__link {
+  position: relative;
+}
+
+.at-firts-list__link--up::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+
+  border: 5px solid transparent;
+  border-bottom: 10px solid rgb(202, 202, 202);
+}
+
+.at-firts-list__link--down::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 0;
+
+  border: 5px solid transparent;
+  border-top: 10px solid rgb(129, 179, 210);
+}
