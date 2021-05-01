@@ -1,6 +1,5 @@
 .sorting-panel {
   display: flex;
-
 }
 
 .sorting-panel__title {
@@ -10,13 +9,13 @@
   line-height: 18px;
 }
 
-.type-list {
+.sorting-panel__type-list {
   margin: 0;
-  margin-right: 475px;
   padding: 0;
 }
 
 .sorting-panel__at-firts-list {
   margin: 0;
   padding: 0;
+  margin-left: 470px;
 }
