@@ -10,7 +10,7 @@
 }
 
 .form label {
-  margin-right: 20px;
+  margin-right: 25px;
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
@@ -19,26 +19,40 @@
 .form__arrive {
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
+  margin-top: 0;
+  margin-bottom: 29px;
 }
 
 .form__depart {
   display: flex;
   align-items: center;
+  margin-top: 0;
   margin-bottom: 30px;
+  & label {
+    margin-right: 20px;
+  }
 }
 
 .form__guests-count {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 .form__adult {
   display: flex;
+  align-items: center;
+  margin-top: 0;
+
+  & label {
+    margin-right: 40px;
+  }
 }
 
 .form__child {
   display: flex;
+  align-items: center;
+  margin-top: 0;
 }
 
 .form__input {
@@ -72,9 +86,9 @@
 .form__search {
   display: inline-block;
   width: auto;
-  padding: 13px 0;
+  padding: 15px 0;
 
-  font-size: 14px;
+  font-size: 21px;
   line-height: 26px;
   font-weight: 700;
   text-align: center;
@@ -91,7 +105,7 @@
   width: 38px;
   padding: 6px 12px;
   display: inline-block;
-  font-size: 14px;
+  font-size: 21px;
   line-height: 26px;
   font-weight: 700;
   text-align: center;
@@ -107,7 +121,7 @@
   width: 38px;
   padding: 6px 12px;
   display: inline-block;
-  font-size: 14px;
+  font-size: 21px;
   line-height: 26px;
   font-weight: 700;
   text-align: center;

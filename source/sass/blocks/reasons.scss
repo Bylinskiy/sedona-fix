@@ -1,5 +1,5 @@
 .reasons__intro {
-  margin-top: 36px;
+  margin-top: 45px;
   margin-bottom: 50px;
   font-size: 14px;
   line-height: 26px;
@@ -48,7 +48,7 @@
 
     background-image: url("/img/reason-town.jpg");
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: 0 -78px;
   }
 
   &--image-before {
@@ -67,15 +67,15 @@
 
     background-image: url("/img/reason-bridge.jpg");
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: 0 -78px;
   }
 }
 
 .reasons__title {
-  padding-top: 40px;
+  padding-top: 48px;
   width: 150px;
   margin: 0 auto;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 
   font-size: 21px;
   line-height: 21px;
@@ -84,7 +84,7 @@
 .reasons__number {
   font-size: 14px;
   line-height: 14px;
-  margin-bottom: 40px;
+  margin-bottom: 26px;
 }
 
 .reasons__text {
@@ -92,6 +92,10 @@
   margin: 0 auto;
 
   font-size: 14px;
-  line-height: 14px;
+  line-height: 21px;
   margin-bottom: 25px;
+}
+
+.reasons__item--wrapper .reasons__text {
+  width: 258px;
 }
