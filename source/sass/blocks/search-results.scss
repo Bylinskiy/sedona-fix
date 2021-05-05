@@ -7,7 +7,7 @@ border-top: 1px solid rgba(#000000, 0.1);
 }
 
 .search-results__item {
-  padding: 30px 72px;
+  padding: 27px 72px;
 
   display: flex;
   border-bottom: 1px solid rgba(#000000, 0.1);
@@ -21,8 +21,13 @@ border-top: 1px solid rgba(#000000, 0.1);
   margin-right: 30px;
 }
 
+.search-results__description {
+  display: flex;
+  flex-direction: column;
+}
+
 .search-results__name {
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 
   font-size: 21px;
   line-height: 26px;
@@ -39,7 +44,7 @@ border-top: 1px solid rgba(#000000, 0.1);
 .search-results__container {
   display: flex;
   flex-direction: column;
-  margin-right: 6px;
+  margin-right: 7px;
 
   &:last-child {
     margin-right: 0;
@@ -47,11 +52,15 @@ border-top: 1px solid rgba(#000000, 0.1);
 }
 
 .search-results__livin-type {
+  margin: 0;
+  margin-bottom: 13px;
   font-size: 14px;
   line-height: 21px;
 }
 
 .search-results__price {
+  margin: 0;
+  margin-bottom: 13px;
   font-size: 14px;
   line-height: 21px;
 }

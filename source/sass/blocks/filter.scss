@@ -10,7 +10,11 @@
   border: none;
 
   &:first-child {
-    padding-left: 75px;
+    padding-left: 74px;
+  }
+
+  &:nth-child(2) {
+    padding-left: 15px;
   }
 }
 
@@ -32,7 +36,7 @@
 
 .filter__option {
   margin-bottom: 19px;
-  padding-left: 45px;
+  padding-left: 40px;
 }
 
 .filter__option label {
@@ -91,4 +95,9 @@
   height: 23px;
 
   background-image: url(/img/icon-check-off_disabled.png)
+}
+
+.filter__range {
+  margin-top: 25px;
+  margin-left: 235px;
 }
