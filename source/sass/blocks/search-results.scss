@@ -35,6 +35,15 @@ border-top: 1px solid rgba(#000000, 0.1);
 
   color: #000000;
   text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: #81B3D2;
+  }
+
+  &:active {
+    color: rgba(0, 0, 0, 0.3);
+  }
 }
 
 .search-results__wrapper {
@@ -67,11 +76,31 @@ border-top: 1px solid rgba(#000000, 0.1);
 
 .search-results__more-info {
 @include button;
+
+&:hover,
+&:focus {
+  background-color: rgb(102, 158, 192);
+}
+
+&:active {
+  background-color: rgb(84, 150, 192);
+  color: rgba(#ffffff, $alpha: 0.3)
+}
 }
 
 .search-results__reservation {
   @include button;
   background-color: #766357;
+
+  &:hover,
+  &:focus {
+    background-color: rgb(96, 78, 67);
+  }
+
+  &:active {
+    background-color: rgb(80, 62, 51);
+    color: rgba(#ffffff, $alpha: 0.3)
+  }
 }
 
 .search-results__other-info {

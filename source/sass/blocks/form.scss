@@ -99,6 +99,16 @@
 
   background-color: #81B3D2;
   border: none;
+
+  &:hover,
+&:focus {
+  background-color: rgb(102, 158, 192);
+}
+
+&:active {
+  background-color: rgb(84, 150, 192);
+  color: rgba(#ffffff, $alpha: 0.3)
+}
 }
 
 .form__plus {
@@ -114,7 +124,16 @@
   border: none;
 
   background-color: #ffffff;
-  border: none;
+  color: rgba(0, 0, 0, 0.3);
+
+  &:hover,
+  &:focus {
+    color: #000000;
+  }
+
+  &:active {
+    color: #81B3D2;
+  }
 }
 
 .form__minus {
@@ -130,5 +149,14 @@
   border: none;
 
   background-color: #ffffff;
-  border: none;
+  color: rgba(0, 0, 0, 0.3);
+
+  &:hover,
+  &:focus {
+    color: #000000;
+  }
+
+  &:active {
+    color: #81B3D2;
+  }
 }

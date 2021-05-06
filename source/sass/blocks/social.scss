@@ -20,12 +20,16 @@
 
   &:hover,
   &:focus{
-    background-color: #ffffff;
+    background-color: rgb(102, 158, 192);
   }
 
-  &:hover path,
-  &:focus path{
-    fill: #000000;
+  &:active {
+    background-color: rgb(84, 150, 192);
   }
+
+  &:active path {
+    fill: rgba(#ffffff, $alpha: 0.3);
+  }
+
 }
 

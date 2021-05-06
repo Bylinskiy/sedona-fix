@@ -11,13 +11,23 @@
 }
 
 .type-list__link {
-  color: rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 0.3);
   text-decoration: none;
   padding-bottom: 5px;
-  border-bottom: 1px dotted rgb(129, 179, 210);
-}
+  border-bottom: 1px dotted #81B3D2;
 
-.type-list__link--active {
-  color: rgb(129, 179, 210);
-  border-bottom: none;
+  &:hover,
+  &:focus {
+    color: #81B3D2;
+  }
+
+  &:active {
+    color: #000000;
+    border-bottom: none;
+  }
+
+  &--active {
+    color: #81B3D2;
+    border-bottom: none;
+  }
 }

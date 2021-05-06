@@ -43,6 +43,16 @@
 
     background-color: rgb(118, 99, 87);
     border: none;
+
+    &:hover,
+    &:focus {
+      background-color: rgb(96, 78, 67);
+    }
+
+    &:active {
+      background-color: rgb(80, 62, 51);
+      color: rgba(#ffffff, $alpha: 0.3)
+    }
 }
 
 .booking__form {
