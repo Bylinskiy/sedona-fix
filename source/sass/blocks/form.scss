@@ -7,6 +7,18 @@
 
   box-sizing: border-box;
   background-color: rgb(204, 204, 204);
+
+  &--closed {
+    display: none;
+  }
+
+  &--nojs {
+    display: flex;
+  }
+
+  &--opened {
+    display: flex;
+  }
 }
 
 .form label {
